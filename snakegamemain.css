@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(160, 131, 184);
+    font-size: 25px;
+}
+#btn{
+    font-size: 45px;
+    cursor: pointer;
+}
+P{
+    text-transform: capitalize;
+}
+p{
+    text-transform: capitalize;
+}

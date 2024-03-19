@@ -1,0 +1,80 @@
+.box{
+    background-color: rgb(200, 126, 178);
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    padding: 20px;
+    float: left; 
+    cursor: pointer;
+    margin: 5px;
+    color: black;
+    font-size: 40px;
+   
+}
+.table{
+    position: absolute;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset{
+    position: absolute;
+    left: 40%;
+    top:50%;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
+#new{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
+.game{
+    background-color: beige;
+}
+#result{
+    position: absolute;
+    left: 40%;
+    top:70%; 
+    width:500px;
+    height: 60px;
+    font-size: 30px; 
+    color: black;
+    
+
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149018547.jpg');
+    
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Makes sure the image covers the entire background */
+}
+@media only screen and (max-width:600px) {
+    body {
+        background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149018547.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Make background fixed */
+    }
+    #reset,
+    #new,
+    #result {
+        position: static; /* Change position to default */
+        width: auto; /* Reset width */
+        height: auto; /* Reset height */
+        margin-top: 10px; /* Adjust spacing */
+        margin-left: auto; /* Align center */
+        margin-right: auto; /* Align center */
+        text-align: center; /* Center text */
+    }
+}

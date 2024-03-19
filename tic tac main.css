@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#option{
+    font-size: 50px;
+    color: black;
+    
+    
+}
+body {
+    background-image: url('https://img.freepik.com/free-vector/watercolor-painted-abstract-background_23-2149111768.jpg');
+    
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Makes sure the image covers the entire background */
+    opacity: 0.8;
+}
+#single{
+    position: absolute;
+    left :30%;
+    width: 300px;
+    height: 150px;
+    background-image: url('https://media.istockphoto.com/id/927015570/vector/vector-realistic-carbonated-mineral-water-bubbles.jpg?s=612x612&w=0&k=20&c=IFMD2xKpMCQ9ZE9Yq7PidGrFzfLRlCBvt4wpEpV7VUw=');
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+#multi{
+    position: absolute;
+    left :55%;
+    width: 300px;
+    height: 150px;
+    background-image: url('https://media.istockphoto.com/id/927015570/vector/vector-realistic-carbonated-mineral-water-bubbles.jpg?s=612x612&w=0&k=20&c=IFMD2xKpMCQ9ZE9Yq7PidGrFzfLRlCBvt4wpEpV7VUw=');
+    background-size: cover;
+    border:none;
+    cursor: pointer;
+}
+@media only screen and (max-width:600px) {
+    body {
+        background-image: url('https://img.freepik.com/free-vector/watercolor-painted-abstract-background_23-2149111768.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Make background fixed */
+    }
+
+    #single {
+        position: absolute;
+        left: 30%;
+        width: 100px;
+        height: 75px;
+    }
+
+    #multi {
+        position: absolute;
+        left: 60%;
+        width: 100px;
+        height: 75px;
+    }
+}

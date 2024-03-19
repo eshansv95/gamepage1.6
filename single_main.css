@@ -1,0 +1,52 @@
+p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#fun{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#option{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#easy{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+#hard{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+#three{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-image: url('https://img.freepik.com/free-vector/detailed-hand-painted-pink-watercolour-background_1048-17039.jpg?size=626&ext=jpg&ga=GA1.1.1827530304.1709942400&semt=ais');
+    
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Makes sure the image covers the entire background */
+}
+@media only screen and (max-width:600px) {
+    body {
+        background-image: url('https://img.freepik.com/free-vector/detailed-hand-painted-pink-watercolour-background_1048-17039.jpg?size=626&ext=jpg&ga=GA1.1.1827530304.1709942400&semt=ais');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Make background fixed */
+    }
+
+    #single,
+    #multi {
+        position: static; /* Change position to default */
+        width: auto; /* Reset width */
+        height: auto; /* Reset height */
+        margin-top: 10px; /* Adjust spacing */
+        margin-left: auto; /* Align center */
+        margin-right: auto; /* Align center */
+        text-align: center; /* Center text */
+    }
+}

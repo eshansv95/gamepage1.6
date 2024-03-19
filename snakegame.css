@@ -1,0 +1,164 @@
+body{
+    background: gray;
+}
+#maincanvas{
+    border: solid black 5px;
+    position: absolute;
+    left: 38%;
+    top:10%;
+    background:#9ee873;
+    z-index: -1;
+}
+#gameover{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background: red;
+    display: none;
+}
+#finalscore{
+    position: absolute;
+    top: 28%;
+    left: 31%;
+    font-size: 33px;
+    display: none;
+}
+#finalscore2{
+    font-size: 30px;
+    position: absolute;
+    top: 28%;
+    left: 33%;
+    display: none;
+}
+#why{
+    background: white;
+}
+#up{
+    font-size: 100px;
+    position: absolute;
+    left:70%;
+    top:32%;
+}
+#down{
+    font-size: 100px;
+    position: absolute;
+    left: 68%;
+    top: 69%;
+}
+#right{
+    font-size: 100px;
+    position: absolute;
+    left: 80%;
+    top: 50%;
+}
+#left{
+    position: absolute;
+    font-size: 100px;
+    left: 60%;
+    top: 50%;
+}
+#page{
+    font-size: 33px;
+}
+#newgame{
+    font-size: 33px;
+    cursor: pointer;
+}
+#score{
+    position: absolute;
+    left: 20%;
+    font-size: 40px;
+}
+#lab{
+    position: absolute;
+    left: 20%;
+    font-size: 40px;
+}
+#highscore{
+    position: absolute;
+    left: 17%;
+    top: 50%;
+}
+#highestscore{
+    position: absolute;
+    left: 17%;
+    top: 55%;
+}
+@media screen and (max-width: 600px) {
+    #maincanvas {
+        width: 200px;
+        height:500px;
+        left: 3%;
+        top: 1%;
+    }
+    body {
+        overscroll-behavior: none;
+      
+            overscroll-behavior: none;
+            overflow-x: hidden;
+            overflow-y: hidden;
+    
+    }
+    
+    #score{
+        position: absolute;
+        top: 25%;
+        left: 70%;
+    }
+    #lab{
+        top: 25%;
+        left: 60%;
+    }
+    #newgame{
+        position: absolute;
+        top: 7%;
+        left: 60%;
+    }
+    #gameover{
+        position: absolute;
+        left:1%;
+    }
+    #finalscore2{
+        position: absolute;
+        left: 12%;
+        top: 35%;
+    }
+    #finalscore{
+        position: absolute;
+        left: 5%;
+        top: 35%;
+    }
+    #up{
+        position: absolute;
+        left: 40%;
+        top: 78%;
+        font-size: 45px;
+    }
+    #down{
+        position: absolute;
+        left: 34%;
+        top:91%;
+        font-size: 45px;
+    }
+    #right{
+        position: absolute;
+        left: 73%;
+        top: 83%;
+        font-size: 45px;
+    }
+    #left{
+        position: absolute;
+        left: 3%;
+        top:83% ;
+        font-size: 45px;
+    }
+    #highscore{
+        font-size: 27px;
+        position: absolute;
+        left: 59%;
+    }
+    #highestscore{
+        position: absolute;
+        left: 75%;
+    }
+}

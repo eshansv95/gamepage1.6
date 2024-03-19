@@ -1,0 +1,23 @@
+#snake{
+    font-size: 45px;
+    cursor: pointer;
+}
+
+#tictactoe{
+    font-size: 45px;
+    cursor: pointer;
+}
+#heading{
+    font-size: 25px;
+}
+body {
+    text-align: center; /* Center-align all text */
+}
+
+#heading {
+    margin-bottom: 20px; /* Add some margin below the heading */
+}
+
+button {
+    margin: 10px; /* Add margin around buttons */
+}

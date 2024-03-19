@@ -1,0 +1,82 @@
+.box{
+    background-color:rgb(245, 139, 157);
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    padding: 20px;
+    float: left; 
+    cursor: pointer;
+    margin: 5px;
+    color: black;
+    font-size: 40px;
+    border: 0.5px;
+   
+}
+.table{
+    position: absolute;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset{
+    position: absolute;
+    left: 40%;
+    top:50%;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
+#new{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
+.game{
+    background-color: purple;
+}
+#result{
+    position: absolute;
+    left: 40%;
+    top:70%; 
+    width:500px;
+    height: 60px;
+    font-size: 30px; 
+    color: black;
+    
+
+}
+
+body{
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAFRABAQAAAAAAAAAAAAAAAAAAABH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQQC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AOuiCNqiAKIAogCiAKIAogCiAKIAogAFKAFKAFKAFKAFKAFKAFKAFKAFKAFAZEBVEAUQBRAFEAUQBRAFEAUQBVZABAVRAFEAUQBRAFEAUQBRAFEAUQBBCiqIAohQUQBRAFEAUQBRAFEAUQBBKUFEpQUSgKJSgolKCiUoKJSgolKCiUoKJQGQEdQACBQCFACAAQACAAQACAAQVAIyICqIAogCiAKIAogCiAKIAogIogKglAUQBRAFEKCiUoKJQFEKCiUoKIAolARUBVEAUQBRAAABUAUQAABRAAAH/9k=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: auto;
+}
+@media only screen and (max-width:600px) {
+    body {
+        background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAFRABAQAAAAAAAAAAAAAAAAAAABH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQQC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AOuiCNqiAKIAogCiAKIAogCiAKIAogAFKAFKAFKAFKAFKAFKAFKAFKAFKAFAZEBVEAUQBRAFEAUQBRAFEAUQBVZABAVRAFEAUQBRAFEAUQBRAFEAUQBBCiqIAohQUQBRAFEAUQBRAFEAUQBBKUFEpQUSgKJSgolKCiUoKJSgolKCiUoKJQGQEdQACBQCFACAAQACAAQACAAQVAIyICqIAogCiAKIAogCiAKIAogIogKglAUQBRAFEKCiUoKJQFEKCiUoKIAolARUBVEAUQBRAAABUAUQAABRAAAH/9k=');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        
+    }
+    #reset,
+    #new,
+    #result {
+        position: static; /* Change position to default */
+        width: auto; /* Reset width */
+        height: auto; /* Reset height */
+        margin-top: 10px; /* Adjust spacing */
+        margin-left: auto; /* Align center */
+        margin-right: auto; /* Align center */
+        text-align: center; /* Center text */
+    }
+}
